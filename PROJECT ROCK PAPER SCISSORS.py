@@ -1,4 +1,7 @@
 import random
+from dis import RETURN_CONST
+
+
 def rock():
     print(""" '''
     _______
@@ -59,5 +62,6 @@ elif choose=="PAPER" and COMPUTER=="ROCK":
     print("YOU WIN")
 elif choose == "ROCK" and COMPUTER == "PAPER":
     print("YOU LOSE")
+
 
 
