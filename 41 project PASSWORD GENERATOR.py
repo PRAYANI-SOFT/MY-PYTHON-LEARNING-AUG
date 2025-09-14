@@ -16,13 +16,15 @@ password =""
 if check == 16 :
 
     print("This is your password generator")
-    for num in range (0,nr_of_letters+1) :
+    for num in range (0,nr_of_numbers) :
         password += random.choice(numbers)
-    for sym in range (0,nr_of_symbols+1) :
+    for sym in range (0,nr_of_symbols) :
         password += random.choice(symbol)
-    for letter in range (0,nr_of_letters+1) :
-        password += random.choice(letters)
+    for letter in range (0,nr_of_letters) :
+       password += random.choice(letters)
     print(password)
+    print(len(password))
+
 else:
     print("CHOOSE THE SUM OF LETTERS + SYMBOLS + NUMBERS=16")
 
