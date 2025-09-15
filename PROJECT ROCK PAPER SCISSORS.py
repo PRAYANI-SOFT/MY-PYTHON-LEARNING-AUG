@@ -1,5 +1,5 @@
 import random
-from dis import RETURN_CONST
+#from dis import RETURN_CONST
 
 
 def rock():
