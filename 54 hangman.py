@@ -7,7 +7,9 @@ print(length)
 while length:
     print(" _ ",end="")
     length=length-1
+
 print("")
+
 guess= input("Enter the correct letters:").lower()
 
 for letter in random_word:
