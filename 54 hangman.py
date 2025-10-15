@@ -10,11 +10,12 @@ while length:
 
 print("")
 
+
 guess= input("Enter the correct letters:").lower()
-
+display = " "
 for letter in random_word:
-    if guess == letter:
-        print( letter ,end=" ")
+    if guess == letter :
+        display += letter
     else :
-        print(" _ ",end="")
-
+        display += " _ "
+print(display)
