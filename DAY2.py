@@ -1,4 +1,4 @@
-
+"""JUST for NAME"""
 x=10
 y="10"
 print(type(x))
