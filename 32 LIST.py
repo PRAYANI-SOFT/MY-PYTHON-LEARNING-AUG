@@ -39,6 +39,7 @@ print(var)
 
 fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ofruits=fruits.copy()
 
 
 dirty_dozen = [vegetables, fruits]
@@ -46,3 +47,10 @@ print(dirty_dozen[1][1])
 print(dirty_dozen[1][2])
 print(dirty_dozen[1][3])
 print(dirty_dozen[1][4])
+print(dirty_dozen)
+ofruits.append(vegetables)
+print(ofruits)
+ofruits.clear()
+print(ofruits)
+
+
